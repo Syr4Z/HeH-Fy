@@ -1,30 +1,27 @@
-# Hackathon HeH
-Projet Programation avancée
+# HeH-Fy
 
-Nom : RONVAUX
-Prénom : Samalü
-Classe : 1TTR
-Groupe : 3
-Année : 2016-2017
+## Introduction
 
+> Durant notre 1ère année en informatique à la Haute Ecole en Hainaut de Mons, nous avons dû réaliser plusieurs projets. L’un de ces projets est organisé dans le cadre du cours de programmation avancé en C#.
+Ce projet consiste à réfléchir, concevoir et développer une application en C# qui aura pour rôle de stocker diverses données en rapport avec la musique. Le stockage des données se fera de manière local dans une série de fichiers. L’ensemble de ces données nous permettra de constituer une bibliothèque musicale.
+Chaque fonctionnalité de l’application devra être testée et mise à épreuve lors d’un stress test. Ce dernier aura pour but de vérifier la stabilité et la fiabilité de notre application.
 
-============== INFOS APPLI ==============
-Utilisateurs :
+## Installation
 
-Eleve => Contient des catégories et des films exemple avec une images non placé et une image supprimé
-Prof => Contient des catégories et des films exemples
-No Category => Ne contient rien
-No Film => Contient juste des catégories
+### Solution #1 :
+- Cloner le repository
+- Lancer l'éxécutable : ```heh-fy.exe```
 
-========================================
+### Solution #2: 
+- Cloner le repository
+- Rendez-vous dans le source du repository
+- Entrer dans le dossier bin
+- Ensuite dans Release
+- Lancer l'éxécutable : ```heh-fy.exe```
 
-Le mot de passe des différents comptes est le même. 
-
-Mot de passe : Test123*
-
-========================================
-Detail compte Eleve :
-
-Film sans image : Rabbi Jacob
-
-Film avec image supprimé des fichiers : LoL
+### Solution #3: 
+- Cloner le repository
+- Rendez-vous dans le source du repository
+- Ouvrer le fichier ```heh-fy.sln``` avec Visual Studio
+- Lancer un Build via le menu afin de générer la dernière version
+- Vous pouvez maintenant éxécuter l'application
