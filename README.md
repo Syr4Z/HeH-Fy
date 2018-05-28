@@ -14,9 +14,9 @@ Chaque fonctionnalité de l’application devra être testée et mise à épreuv
 
 ### Solution #2: 
 - Cloner le repository
-- Rendez-vous dans le source du repository
+- Rendez-vous dans le dossier Source du repository
 - Entrer dans le dossier bin
-- Ensuite dans Release
+- Ensuite dans Debug
 - Lancer l'éxécutable : ```heh-fy.exe```
 
 ### Solution #3: 

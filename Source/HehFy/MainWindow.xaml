@@ -1,0 +1,31 @@
+﻿<Window x:Class="Hehfy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hehfy"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="HeH-Fy - Choix de l'utilisateur" Height="310" Width="350" ResizeMode="NoResize" Background="#FF444444">
+
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" Height="56" Background="#FFCCCCCC">
+            <Rectangle  Fill="#FFCCCCCC" Height="57"  VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Margin="0,0,0.333,0"/>
+            <Label x:Name="LAB_Title" Content="HeH-Fy" HorizontalContentAlignment="Center" Padding="0" VerticalAlignment="Top" Foreground="#FFB90600" FontSize="22" FontWeight="Bold" Background="#00444444" Margin="0,0,0.333,0"/>
+            <Label x:Name="LAB_Subtitle" Content="Choix de l'utilisateur" HorizontalContentAlignment="Center" Padding="0" Margin="0,35,0.333,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid Background="#FF444444">
+            <Label x:Name="LAB_SelectionProfil" Content="Veuillez sélectionner votre profil :" Padding="4,0,0,0" HorizontalAlignment="Center" Margin="19,10,102,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" Width="223" Height="16"/>
+            <ListBox x:Name="LB_ListUtilisateurs" VerticalAlignment="Top" Margin="18,30,0,0" Height="128" HorizontalAlignment="Left" Width="205" DisplayMemberPath="Nom" SelectedIndex="0" SelectionChanged="LB_ListUtilisateurs_SelectionChanged" />
+
+            <Button x:Name="BTN_Connexion" Style="{StaticResource Style_BTN_Rouge}" Content="Connexion" HorizontalAlignment="Center" Margin="229,30,9.667,0" VerticalAlignment="Top" Width="106" Click="BTN_Connexion_Click" />
+            <Button x:Name="BTN_AjouterUtilisateur" Style="{StaticResource Style_BTN_Rouge}" Content="Nouveau" HorizontalAlignment="Center" Margin="228,63,10,0" VerticalAlignment="Top" Width="106" BorderBrush="{x:Null}" Click="BTN_AjouterUtilisateur_Click"/>
+            <Button x:Name="BTN_ModifierUtilisateur" Style="{StaticResource Style_BTN_Gris}" Content="Modifier" HorizontalAlignment="Center" Margin="228,96,10,0" VerticalAlignment="Top" Width="106" BorderBrush="{x:Null}" Click="BTN_ModifierUtilisateur_Click"/>
+            <Button x:Name="BTN_SupprimerUtilisateur" Style="{StaticResource Style_BTN_Gris}" Content="Supprimer" HorizontalAlignment="Center" Margin="228,129,10,0" VerticalAlignment="Top" Width="106" Click="BTN_SupprimerUtilisateur_Click"/>
+            
+            <Label x:Name="LAB_SelectionProfil_Copy" Content="Mot de passe" Padding="4,0,0,0" HorizontalAlignment="Center" Margin="19,169,244.667,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" Width="81" Height="16" RenderTransformOrigin="0.5,0.5" />
+            <PasswordBox x:Name="PWD_MotDePasse" HorizontalAlignment="Left" Margin="19,188,0,0" VerticalAlignment="Top" Width="205" KeyDown="PWD_MotDePasse_KeyDown"/>
+        </Grid>
+    </DockPanel>
+</Window>

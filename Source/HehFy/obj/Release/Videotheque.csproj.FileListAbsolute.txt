@@ -1,0 +1,49 @@
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\bin\Release\Videotheque.exe.config
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\bin\Release\Videotheque.exe
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\bin\Release\Videotheque.pdb
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\FicheCategorie.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\FicheFilm.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\ListeCategories.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\ListeFilms.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\MainWindow.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\FicheUtilisateur.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\App.g.cs
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque_MarkupCompile.cache
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque_MarkupCompile.lref
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\App.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\FicheCategorie.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\FicheFilm.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\ListeCategories.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\ListeFilms.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\MainWindow.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Fenêtres\FicheUtilisateur.baml
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque.g.resources
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque.Properties.Resources.resources
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque.csproj.GenerateResource.Cache
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque.exe
+C:\Users\Nicolas\Dropbox\Videotheque\Videotheque\obj\Release\Videotheque.pdb
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\bin\Release\Videotheque.exe.config
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque.exe
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque.pdb
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\bin\Release\Videotheque.exe
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\bin\Release\Videotheque.pdb
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque.csprojResolveAssemblyReference.cache
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\APropos.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\FicheCategorie.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\FicheFilm.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\ListeFilms.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\MainWindow.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\FicheUtilisateur.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\App.g.cs
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque_MarkupCompile.cache
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque_MarkupCompile.lref
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\App.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\APropos.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\FicheCategorie.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\FicheFilm.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\ListeFilms.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\MainWindow.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Fenêtres\FicheUtilisateur.baml
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque.g.resources
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque.Properties.Resources.resources
+C:\Users\Sam Ronvaux\Documents\HeH\1TTR3_RONVAUX_Samalu_Projet_Prog_Av._Videotheque\Videotheque\obj\Release\Videotheque.csproj.GenerateResource.Cache

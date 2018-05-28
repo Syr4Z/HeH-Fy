@@ -1,0 +1,46 @@
+﻿<Window x:Class="Hehfy.Fenêtres.FicheMusique"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hehfy.Fenêtres"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing"
+        Title="HeH-Fy - Fiche de la musique" Height="497" Width="691.706" ResizeMode="NoResize">
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" Height="56" Background="#FFCCCCCC">
+            <Rectangle  Fill="#FFCCCCCC" Height="57"  VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Margin="0,0,0.333,0"/>
+            <Label x:Name="LAB_Title" Content="HeH-Fy" HorizontalContentAlignment="Center" Padding="0" VerticalAlignment="Top" Foreground="#FFB90600" FontSize="22" FontWeight="Bold" Background="#00444444" Margin="0,0,0.333,0"/>
+            <Label x:Name="LAB_Subtitle" Content="Fiche de la musique" HorizontalContentAlignment="Center" Padding="0" Margin="0,35,0.333,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid Background="#FF444444">
+            <Label x:Name="LAB_Affiche" Content="Couverture" HorizontalAlignment="Left" Padding="2, 0, 0, 0" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" RenderTransformOrigin="5.75,1"/>
+            <Border BorderThickness="1" HorizontalAlignment="Left"  BorderBrush="#FFCCCCCC" VerticalAlignment="Top" Height="194"  Width="149" Margin="10,30,434,0">
+                <Image x:Name="IMG_Affiche" Source="/Hehfy;component/Ressources/Images/NoPhoto.png" Stretch="Uniform"/>
+            </Border>
+            <Button x:Name="BTN_ModifierImage" Content="Modifier" HorizontalAlignment="Left" Margin="10,229,0,0" VerticalAlignment="Top" Width="149" Click="BTN_ModifierImage_Click"/>
+            <Button x:Name="BTN_SupprimerImage" Content="Supprimer" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="149" Click="BTN_SupprimerImage_Click"/>
+
+            <Label x:Name="LAB_Titre" Content="Titre" HorizontalAlignment="Left" Padding="2, 0, 0, 0" Margin="188,10,0,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" RenderTransformOrigin="5.75,1" Width="29"/>
+            <TextBox x:Name="TB_Titre" HorizontalAlignment="Left" Height="23" Margin="188,30,0,0" TextWrapping="NoWrap" Text="{Binding Path=Titre, Mode=TwoWay}" VerticalAlignment="Top" Width="471"/>
+
+            <Label x:Name="LAB_Categorie" Content="Catégorie" HorizontalAlignment="Left" Padding="2, 0, 0, 0" Margin="188,64,0,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" RenderTransformOrigin="5.75,1" Width="66"/>
+            <ComboBox x:Name="COMBO_Categorie" HorizontalAlignment="Left" Margin="188,85,0,0" VerticalAlignment="Top" Width="471" ItemsSource="{Binding categories}" DisplayMemberPath="Nom" SelectedIndex="0" />
+
+            <Label x:Name="LAB_Auteur" Content="Auteur/Compositeur" HorizontalAlignment="Left" Padding="2, 0, 0, 0" Margin="188,118,0,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" RenderTransformOrigin="5.75,1" Width="120"/>
+            <TextBox x:Name="TB_Auteur" HorizontalAlignment="Left" Height="23" Margin="188,139,0,0" TextWrapping="NoWrap" Text="{Binding Realisateur, Mode=TwoWay}" VerticalAlignment="Top" Width="229"/>
+
+            <Label x:Name="LAB_DateSortie" Content="Date de sortie (JJ/MM/AAAA)" HorizontalAlignment="Left" Padding="2, 0, 0, 0" Margin="430,118,0,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" RenderTransformOrigin="5.75,1" Width="161"/>
+            <DatePicker x:Name="DP_DateSortie" HorizontalAlignment="Left"  Margin="430,139,0,0" VerticalAlignment="Top" Width="229" BorderBrush="{x:Null}" Foreground="#FF333333" IsTodayHighlighted="False" />
+
+            <Label x:Name="LAB_Note" Content="Notes personnelles" HorizontalAlignment="Left" Padding="2, 0, 0, 0" Margin="188,172,0,0" VerticalAlignment="Top" Foreground="#FFCCCCCC" RenderTransformOrigin="5.75,1" Width="108"/>
+            <TextBox x:Name="TB_Note" HorizontalAlignment="Left" Height="147" Margin="188,193,0,0" Text="{Binding Resume, Mode=TwoWay}" VerticalAlignment="Top" Width="471" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" />
+
+            <Button x:Name="BTN_Valider" Content="Valider" HorizontalAlignment="Center" Margin="222,0,344,11" VerticalAlignment="Bottom" Width="104" Background="#FFCCCCCC" Foreground="#FFB90600" BorderBrush="{x:Null}" FontWeight="Bold" Click="BTN_Valider_Click"/>
+            <Button x:Name="BTN_Annuler" Content="Annuler" HorizontalAlignment="Center" Margin="342,0,224,11" VerticalAlignment="Bottom" Width="104" Background="#FFCCCCCC" Foreground="#FF444444" BorderBrush="{x:Null}" FontWeight="Bold" Click="BTN_Annuler_Click"/>
+
+        </Grid>
+    </DockPanel>
+</Window>
